@@ -26,7 +26,7 @@ allfiles:
 	@cp -a pwait.c debian LICENSE DISCLAIMER README.md Makefile $(PWAIT_DIR)
 
 debfiles:
-	@cp -a pwait.c GPLv2 DISCLAIMER Readme Makefile $(PWAIT_DIR)
+	@cp -a pwait.c LICENSE DISCLAIMER README.md Makefile $(PWAIT_DIR)
 
 dist: pwait_dir allfiles tardist
 	sha1sum $(PWAIT_DIR).tgz > $(PWAIT_DIR).tgz.sha1sum
