@@ -1,3 +1,10 @@
+pwait (1.3-1) UNRELEASED; urgency=medium
+
+  * switch from atoi to strtol for pid conversion
+  * update filenames for github
+
+ -- Eric Estabrooks <eric@urbanrage.com>  Mon, 12 Oct 2015 18:24:26 -0500
+
 pwait (1.2-1) UNRELEASED; urgency=medium
 
   * added check for fork
