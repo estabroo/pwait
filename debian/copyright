@@ -1,0 +1,18 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: pwait
+Upstream-Contact:
+Source: ftp://ftp.urbanrage.com/pub/c/ pwait-VERSION.tgz
+Disclaimer: Requires root or cap_net_admin, use at your own risk
+
+
+Files: pwait.c
+Copyright: 2009 (http://bewareofgeek.livejournal.com/2945.html)
+Copyright: 2015 Eric Estabrooks
+Licence: GPL-2
+
+Files: debian/*
+Copyright: 2015 Eric Estabrooks
+License: GPL-2
+
+Files: *
+Copyright: 2015 Eric Estabrooks

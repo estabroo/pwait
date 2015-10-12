@@ -1,0 +1,11 @@
+Source: pwait
+Maintainer: Eric Estabrooks <eric@urbanrage.com>
+Section: misc
+Priority: optional
+Build-Depends: debhelper (>= 9)
+
+Package: pwait
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends} libcap2-bin
+Description: wait on processes
+    pwait waits for other processes to complete before returning.

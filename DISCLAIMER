@@ -1,0 +1,3 @@
+It works for me. Use at your own risk.
+It requires either you be root, cap_net_admin capability, or setuid root,
+so there is the potential for privilege escalation.
