@@ -1,3 +1,9 @@
+pwait (1.4-1) UNRELEASED; urgency=medium
+
+  * added cap_kill to postinst
+
+ -- Eric Estabrooks <eric@urbanrage.com>  Tue, 13 Oct 2015 08:37:38 -0500
+
 pwait (1.3-1) UNRELEASED; urgency=medium
 
   * switch from atoi to strtol for pid conversion

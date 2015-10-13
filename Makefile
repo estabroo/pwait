@@ -1,6 +1,6 @@
 #!/usr/bin/env make
 
-PWAIT_VERSION = 1.3
+PWAIT_VERSION = 1.4
 PWAIT_DIR = pwait-$(PWAIT_VERSION)
 prefix ?= /usr/local
 exec_prefix = ${prefix}
